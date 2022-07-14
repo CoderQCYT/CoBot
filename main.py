@@ -17,9 +17,9 @@ def unclick():
     keyboard.release("space")
 
 def clicktwo():
-    keyboard.press("up")
+    keyboard.press("up_arrow")
 def unclicktwo():
-    keyboard.release("up")
+    keyboard.release("up_arrow")
     
 
 recording = 1
@@ -133,5 +133,4 @@ while True:
                 unclick()
                 playback_ended = False
                 break
-
 
